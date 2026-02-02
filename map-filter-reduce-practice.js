@@ -279,13 +279,13 @@ section("REFLECTION (write answers below as comments)");
 
 /**
  * 1) When should you use map instead of filter?
- *
+ * It is only if you want to transform evey element and keep the same number of items filter is only used to select a subset of elements.
  * 2) Why does map always return the same number of items?
- *
+ * It transforms each element in the array, so the output array has the same length as the input array.
  * 3) What role does the accumulator play in reduce?
- *
+ * The accumulator accumulates the callback's return values; it is the accumulated value previously returned in the last invocation of the callback, or the initial value, if supplied.
  * 4) Which problem was hardest—and why?
- */
+ * For me, number 12 because at first I did not understand it and it took me a while to figure out how to chain filter and map together.
 
 // ------------------------------------------------------------
 // END
